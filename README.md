@@ -1,10 +1,10 @@
 # baidupan
 
-#关于
+## 关于
 
-baidupan是一个百度盘(http://pan.baidu.com)API的Python SDK.
+baidupan 是一个百度盘 API (http://pan.baidu.com) 的 Python SDK.
 
-#使用方法
+## 使用方法
 
     from baidupan.baidupan import BaiduPan
 
@@ -13,3 +13,7 @@ baidupan是一个百度盘(http://pan.baidu.com)API的Python SDK.
         disk = BaiduPan(access_token)
         print disk.quota()
         print disk.upload('hello', path='/apps/appname/hello')
+
+## release note
+
+http://www.v2ex.com/t/81003
